@@ -1,5 +1,4 @@
 # StopFarma
 Aplicativo híbrido com o jogo Stop.
 
-Flávio Bergamini
-Letícia Vieira 
+Flávio Bergamini e Letícia Vieira 
