@@ -34,7 +34,7 @@ loginForm: FormGroup;
       email: [null, [Validators.required, Validators.email]],
       password: [null, [Validators.required, Validators.minLength(6)]]
     })
-  }
+  } 
 
   entrar(){
     this.afAuth.auth.signInWithEmailAndPassword(this.email.value,this.password.value)
@@ -45,7 +45,7 @@ loginForm: FormGroup;
       this.users.email = this.email.value
       this.users.senha = this.password.value
 
-      this.navCtrl.setRoot('start-page');
+      this.navCtrl.setRoot('antibiotico');
 
     })
 
