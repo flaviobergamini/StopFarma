@@ -1,4 +1,7 @@
 # StopFarma
-Aplicativo híbrido com o jogo Stop.
+Aplicativo híbrido com o jogo de stop envolvendo temas a Farmácia.
 
-Flávio Bergamini e Letícia Vieira 
+Desenvolvedores: 
+
+Flávio Bergamini
+Letícia Vieira 
