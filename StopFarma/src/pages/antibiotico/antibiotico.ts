@@ -27,6 +27,7 @@ export class AntibioticoPage {
 
   enviar(){
     this.presentAlert('Envio', 'Realizado com sucesso!!!')
+    this.navCtrl.setRoot('vlp');
   }
   presentAlert(title: string, subtitle:string) {
     let alert = this.Alertctrl.create({

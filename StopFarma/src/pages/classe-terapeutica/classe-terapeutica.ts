@@ -24,4 +24,8 @@ export class ClasseTerapeuticaPage {
     console.log('ionViewDidLoad ClasseTerapeuticaPage');
   }
 
+  enviar(){
+    this.navCtrl.setRoot('hormonio');
+  }
+
 }

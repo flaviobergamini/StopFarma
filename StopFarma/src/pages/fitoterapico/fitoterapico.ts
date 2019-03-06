@@ -17,9 +17,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class FitoterapicoPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    public navCtrl: NavController, 
+    public navParams: NavParams
+    ) {
   }
 
+  enviar(){
+    this.navCtrl.setRoot('pontuacao');
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad FitoterapicoPage');
   }

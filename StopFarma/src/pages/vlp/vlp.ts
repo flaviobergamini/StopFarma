@@ -17,9 +17,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class VlpPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    public navCtrl: NavController, 
+    public navParams: NavParams
+    ) {
   }
 
+  enviar(){
+    this.navCtrl.setRoot('doenca');
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad VlpPage');
   }

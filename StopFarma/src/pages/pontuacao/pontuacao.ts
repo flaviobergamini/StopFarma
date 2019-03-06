@@ -17,9 +17,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class PontuacaoPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    public navCtrl: NavController, 
+    public navParams: NavParams
+    ) { 
   }
 
+  menu(){
+    this.navCtrl.setRoot('Classe');
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad PontuacaoPage');
   }

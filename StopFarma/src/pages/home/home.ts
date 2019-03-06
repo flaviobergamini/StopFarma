@@ -45,7 +45,7 @@ loginForm: FormGroup;
       this.users.email = this.email.value
       this.users.senha = this.password.value
 
-      this.navCtrl.setRoot('antibiotico');
+      this.navCtrl.setRoot('Classe');
 
     })
 

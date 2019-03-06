@@ -9,7 +9,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  */
 
 @IonicPage({
-  name:'doença'
+  name:'doenca'
 })
 @Component({
   selector: 'page-doenca',
@@ -17,9 +17,14 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class DoencaPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    public navCtrl: NavController, 
+    public navParams: NavParams
+    ) {
   }
-
+  enviar(){
+    this.navCtrl.setRoot('fitoterapico');
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad DoencaPage');
   }

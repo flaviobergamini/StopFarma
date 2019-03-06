@@ -17,9 +17,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class CorpoPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    public navCtrl: NavController, 
+    public navParams: NavParams
+    ) {
   }
 
+  enviar(){
+    this.navCtrl.setRoot('antibiotico');
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad CorpoPage');
   }
